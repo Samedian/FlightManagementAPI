@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\FlightManagementAPI\\FlightManagementRepository\\FlightManagementRepository.csproj": {
+    "D:\\FlightManagementAPI\\FlightManagementEntity\\FlightManagementEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FlightManagementAPI\\FlightManagementRepository\\FlightManagementRepository.csproj",
-        "projectName": "FlightManagementRepository",
-        "projectPath": "D:\\FlightManagementAPI\\FlightManagementRepository\\FlightManagementRepository.csproj",
+        "projectUniqueName": "D:\\FlightManagementAPI\\FlightManagementEntity\\FlightManagementEntity.csproj",
+        "projectName": "FlightManagementEntity",
+        "projectPath": "D:\\FlightManagementAPI\\FlightManagementEntity\\FlightManagementEntity.csproj",
         "packagesPath": "C:\\Users\\Samarth\\.nuget\\packages\\",
-        "outputPath": "D:\\FlightManagementAPI\\FlightManagementRepository\\obj\\",
+        "outputPath": "D:\\FlightManagementAPI\\FlightManagementEntity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Samarth\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,6 +114,121 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FlightManagementAPI\\FlightManagementExceptions\\FlightManagementExceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FlightManagementAPI\\FlightManagementExceptions\\FlightManagementExceptions.csproj",
+        "projectName": "FlightManagementExceptions",
+        "projectPath": "D:\\FlightManagementAPI\\FlightManagementExceptions\\FlightManagementExceptions.csproj",
+        "packagesPath": "C:\\Users\\Samarth\\.nuget\\packages\\",
+        "outputPath": "D:\\FlightManagementAPI\\FlightManagementExceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samarth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FlightManagementAPI\\FlightManagementRepository\\FlightManagementRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FlightManagementAPI\\FlightManagementRepository\\FlightManagementRepository.csproj",
+        "projectName": "FlightManagementRepository",
+        "projectPath": "D:\\FlightManagementAPI\\FlightManagementRepository\\FlightManagementRepository.csproj",
+        "packagesPath": "C:\\Users\\Samarth\\.nuget\\packages\\",
+        "outputPath": "D:\\FlightManagementAPI\\FlightManagementRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samarth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\FlightManagementAPI\\FlightManagementEntity\\FlightManagementEntity.csproj": {
+                "projectPath": "D:\\FlightManagementAPI\\FlightManagementEntity\\FlightManagementEntity.csproj"
+              },
+              "D:\\FlightManagementAPI\\FlightManagementExceptions\\FlightManagementExceptions.csproj": {
+                "projectPath": "D:\\FlightManagementAPI\\FlightManagementExceptions\\FlightManagementExceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -128,6 +243,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "automapper.extensions.microsoft.dependencyinjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [

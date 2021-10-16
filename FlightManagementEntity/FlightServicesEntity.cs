@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace FlightManagementRepository.Model
+namespace FlightManagementEntity
 {
-    public class FlightServices
+    public class FlightServicesEntity
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
@@ -23,6 +23,6 @@ namespace FlightManagementRepository.Model
         public FlightEntity flight { get; set; }
 
         [ForeignKey("ServiceId")]
-        public ICollection<AncillaryServices> ancillaryServices { get; set; }
+        public ICollection<AncillaryServicesEntity> ancillaryServices { get; set; }
     }
 }
