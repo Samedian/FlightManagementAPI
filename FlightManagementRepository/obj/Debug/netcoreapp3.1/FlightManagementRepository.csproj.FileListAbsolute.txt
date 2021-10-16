@@ -1,0 +1,12 @@
+D:\FlightManagementAPI\FlightManagementRepository\bin\Debug\netcoreapp3.1\FlightManagementRepository.deps.json
+D:\FlightManagementAPI\FlightManagementRepository\bin\Debug\netcoreapp3.1\FlightManagementRepository.dll
+D:\FlightManagementAPI\FlightManagementRepository\bin\Debug\netcoreapp3.1\FlightManagementRepository.pdb
+D:\FlightManagementAPI\FlightManagementRepository\obj\Debug\netcoreapp3.1\FlightManagementRepository.csprojAssemblyReference.cache
+D:\FlightManagementAPI\FlightManagementRepository\obj\Debug\netcoreapp3.1\FlightManagementRepository.AssemblyInfoInputs.cache
+D:\FlightManagementAPI\FlightManagementRepository\obj\Debug\netcoreapp3.1\FlightManagementRepository.AssemblyInfo.cs
+D:\FlightManagementAPI\FlightManagementRepository\obj\Debug\netcoreapp3.1\FlightManagementRepository.csproj.CoreCompileInputs.cache
+D:\FlightManagementAPI\FlightManagementRepository\obj\Debug\netcoreapp3.1\FlightManagementRepository.dll
+D:\FlightManagementAPI\FlightManagementRepository\obj\Debug\netcoreapp3.1\FlightManagementRepository.pdb
+D:\FlightManagementAPI\FlightManagementRepository\bin\Debug\netcoreapp3.1\FlightManagementRepository.runtimeconfig.json
+D:\FlightManagementAPI\FlightManagementRepository\bin\Debug\netcoreapp3.1\FlightManagementRepository.runtimeconfig.dev.json
+D:\FlightManagementAPI\FlightManagementRepository\obj\Debug\netcoreapp3.1\FlightManagementRepository.genruntimeconfig.cache
